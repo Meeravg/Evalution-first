@@ -1,0 +1,146 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Evalution</title>
+    <style>
+        h1{
+            color: blue;
+            text-align: center;
+            margin: 25px;
+            margin-bottom: 40px;
+        }
+        .grandfather{
+            height: 500px;
+            width: 75%;
+            border: 1px dotted black;
+            margin: auto;
+            display: flex;
+            justify-content: space-evenly;
+            padding: 7px;
+            
+        }
+        .father{
+            border: 1px dotted black;
+            justify-content: space-evenly;
+            height: 450px;
+            width: 55%;
+            margin: 20px;
+            padding: 7px;
+          
+            
+        }
+        .uncle{
+            border: 1px dotted black;
+            justify-content: space-evenly;
+            height: 450px;
+            width: 55%;
+            margin: 20px;
+            text-align: center;
+            padding: 7px;
+        }
+        .Person1{
+            border: 1px dotted black;
+            height: 400px;
+            width: 70%;
+            padding: 7px;
+            margin-left:45px ;
+            display: flex;
+            
+        }
+        .child{
+            border: 1px dotted black;
+            height: 350px;
+            width: fit-content;
+            padding: 7px;
+            margin: 15px;
+            font-size: 15px;
+            display: grid;
+        }
+        .children{
+            font-size: 40px;
+            border: 1px dotted black;
+            height: 45px;
+            width: 35px;
+            margin: auto;
+            grid-template-columns: repeat(3,15px);
+           margin-top: -70px;
+           gap: 50px;
+           
+        }
+        .person1{
+            border: 1px dotted black;
+            height: 35px;
+            width: 90%;
+            text-align: center;
+            margin: auto;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+        .person2{
+            border: 1px dotted black;
+            height: 310px;
+            width: 90%;
+            text-align: center;
+            margin: auto;
+            margin-top: 10px;
+        }
+        .kid{
+            border: 1px solid gray;
+            height:35px ;
+            width:90% ;
+            margin: auto;
+            margin-top: 10px;
+        }
+        .kid2{
+            border: 1px solid gray;
+            height:210px ;
+            width:90% ;
+            margin: auto; 
+            margin-top: 10px; 
+            
+        }
+        .flag{
+            border: 1px dotted blue;
+            height: 35px;
+            width: 90%;
+            margin: auto;
+            justify-content: space-evenly;
+            margin: 20px;
+            font-size: 25px;
+            text-align: center;
+            
+        }
+    </style>
+ </head>
+
+ <body>
+    <h1>INSTRUCTIONS</h1>
+    <div class="grandfather">Grandfather
+         <div class="father">Father
+            <div class="Person1">Person 1
+                <div class="child">Child-1</div>
+                <div class="child">Child-2</div>
+                <div class="child">Child-3
+                    <div class="children">1</div>
+                    <div class="children">2</div>
+                    <div class="children">3</div>
+                </div>
+            </div>
+         </div>
+         <div class="uncle">Uncle
+            <div class="person1">Person 1</div>
+            <div class="person2">Person 2
+                <div class="kid">Child 1</div>
+                <div class="kid2">Child 2
+                    <div style="background-color: orange;" class="flag">1</div>
+                    <div style="color: blue;" class="flag">2</div>
+                    <div style="background-color: green;" class="flag">3</div>
+                </div>
+            </div>
+            <div class="person1">Person 3</div>
+         </div>
+    </div>
+ </body>
+ </html>
